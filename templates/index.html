@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #1c1c1e, #2a2a2d);
+            color: #eaeaea;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .chat-container {
+            width: 100%;
+            max-width: 900px;
+            height: 85vh;
+            background: rgba(43, 43, 46, 0.9);
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, #0a84ff, #007aff);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .chat-box {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background: rgba(28, 28, 30, 0.9);
+            border-radius: 10px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            animation: fadeInUp 0.6s ease-in-out;
+        }
+
+            .message.user {
+                text-align: right;
+            }
+
+            .message.bot {
+                text-align: left;
+            }
+
+            .message p {
+                display: inline-block;
+                padding: 10px 15px;
+                border-radius: 10px;
+                background: #333;
+                color: #fff;
+            }
+
+            .message.user p {
+                background: #0a84ff;
+            }
+
+        .typing-indicator {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+            .typing-indicator span {
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                margin-right: 5px;
+                background: #fff;
+                border-radius: 50%;
+                animation: bounce 1.5s infinite;
+            }
+
+                .typing-indicator span:nth-child(2) {
+                    animation-delay: 0.2s;
+                }
+
+                .typing-indicator span:nth-child(3) {
+                    animation-delay: 0.4s;
+                }
+
+        @keyframes bounce {
+            0%, 80%, 100% {
+                transform: scale(0);
+            }
+
+            40% {
+                transform: scale(1);
+            }
+        }
+
+        .input-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        #message-input {
+            flex: 1;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #444;
+            background: #1c1c1e;
+            color: #eaeaea;
+        }
+
+        #send-btn {
+            padding: 10px 20px;
+            background-color: #0a84ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">Chatbot</div>
+        <div id="chat-box" class="chat-box">
+            <!-- Chat messages will appear here -->
+        </div>
+        <div id="typing-indicator" class="typing-indicator" style="display: none;">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="input-container">
+            <textarea id="message-input" placeholder="Type your message..."></textarea>
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+    <script>
+        const chatBox = document.getElementById("chat-box");
+        const messageInput = document.getElementById("message-input");
+        const sendBtn = document.getElementById("send-btn");
+        const typingIndicator = document.getElementById("typing-indicator");
+
+        function addMessage(message, sender) {
+            const messageDiv = document.createElement("div");
+            messageDiv.classList.add("message", sender);
+            messageDiv.innerHTML = `<p>${message}</p>`;
+            chatBox.appendChild(messageDiv);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function showTypingIndicator() {
+            typingIndicator.style.display = "flex";
+        }
+
+        function hideTypingIndicator() {
+            typingIndicator.style.display = "none";
+        }
+
+        sendBtn.addEventListener("click", async () => {
+            const userMessage = messageInput.value.trim();
+            if (!userMessage) return;
+
+            addMessage(userMessage, "user");
+            messageInput.value = "";
+
+            showTypingIndicator();
+
+            try {
+                const response = await fetch("/api", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ message: userMessage }),
+                });
+
+                const data = await response.json();
+
+                hideTypingIndicator();
+
+                if (data.answer) {
+                    addMessage(data.answer, "bot");
+                } else {
+                    addMessage("Error: No response from the server.", "bot");
+                }
+            } catch (error) {
+                hideTypingIndicator();
+                addMessage("Error: Unable to connect to the server.", "bot");
+            }
+        });
+
+        messageInput.addEventListener("keydown", (event) => {
+            if (event.key === "Enter" && !event.shiftKey) {
+                event.preventDefault();
+                sendBtn.click();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+[
+  {
+    "questions": [ "Hello", "Hi", "Hey" ],
+    "answers": [ "Hello! How can I assist you today?", "Hi there! What can I help you with?", "Hey! Happy to see you :)" ]
+  },
+  {
+    "questions": [ "How are you?", "How are you doing?", "How's it going?" ],
+    "answers": [ "I'm a bot, so I don't have feelings, but I'm here to help you!", "I'm just a program, but I'm ready to assist you.", "I'm doing great! How can I assist you today?" ]
+  },
+  {
+    "questions": [ "Goodbye", "Bye", "See you later" ],
+    "answers": [ "Goodbye! Have a great day!", "Bye! Take care!", "See you later! Feel free to reach out anytime." ]
+  },
+  {
+    "questions": [ "Thank you", "Thanks", "I appreciate it" ],
+    "answers": [ "You're welcome! I'm here to help.", "No problem! Happy to assist.", "My pleasure! Anything else you need?" ]
+  },
+  {
+    "questions": [ "Where is VTU located?", "What is the location of VTU?" ],
+    "answers": [ "The location is <a href='https://www.google.co.in/maps/place/Visvesvaraya+Technological+University+(VTU)/@15.1339671,73.3553086,7z/data=!4m10!1m2!2m1!1svtu!3m6!1s0x3bbf6589aaaaaaa9:0xce6d455b3335886!8m2!3d15.7777762!4d74.4634341!15sCgN2dHUiA4gBAVoFIgN2dHWSAQp1bml2ZXJzaXR5mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU15YW1ONVJ6SjNSUkFC4AEA-gEECAAQLw!16zL20vMDRuN20z?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D' target='_blank'>here</a>." ]
+  },
+  {
+    "questions": [ "What is the syllabus for VTU 5th Semester?", "Can you provide the VTU syllabus for B.Tech?" ],
+    "answers": [ "You can find the VTU syllabus at <a href='https://vtu.ac.in/b-e-scheme-syllabus/' target='_blank'>here</a>." ]
+  },
+  {
+    "questions": [ "Where can I find VTU books?", "Which books should I refer to for VTU Computer Science Engineering?" ],
+    "answers": [ "You can find books at <a href='https://www.vtucode.in/' target='_blank'>VTU Code</a> or <a href='https://backbencher.club/cbcs-notes/' target='_blank'>Backbencher Club</a>." ]
+  },
+  {
+    "questions": [ "vtu Internships information", "Which companies offer internships for VTU students?" ],
+    "answers": [ "You can check internships at the following links: <a href='https://internshala.com/' target='_blank'>Internshala</a>, <a href='https://www.linkedin.com/jobs/internships/' target='_blank'>LinkedIn Internships</a>, and <a href='https://www.naukri.com/internship-jobs' target='_blank'>Naukri Internships</a>."]
+  },
+  {
+    "questions": [ "Information about VTU online program" ],
+    "answers": ["You can find information about VTU's online programs at the following links: <br> 1. <a href='https://vtu.ac.in/en/administration/vtu-online-degree/' target='_blank'>VTU Online Degree Programs</a> - Explore a range of undergraduate, postgraduate, and diploma programs offered online by VTU. <br> 2. <a href='https://lms.vtu.ac.in/' target='_blank'>VTU Centre for Distance and Online Education</a> - Access the Learning Management System (LMS) for course materials and details related to distance and online education. <br> 3. <a href='https://online.vtu.ac.in/' target='_blank'>VTU Online Education Portal</a> - Discover various online courses and programs designed for flexible learning."]
+  },
+  {
+    "questions": [ "What is VTU?, and how does it function?" ],
+    "answers": [ "VTU stands for Visvesvaraya Technological University, named after the eminent engineer and statesman Sir M. Visvesvaraya. Established in 1998 by the Government of Karnataka, VTU is one of the largest technological universities in India, headquartered in Belagavi, Karnataka. The university oversees engineering and technical education across the state.<br><br> Functions of VTU:<br> 1.Affiliation and Regulation: VTU governs and affiliates over 200 engineering colleges in Karnataka, ensuring they adhere to academic standards and guidelines.<br> 2.Curriculum Design: VTU designs and updates syllabi for various undergraduate, postgraduate, and doctoral programs in engineering, technology, and management.<br> 3. Examinations and Results: The university conducts semester-wise examinations for all affiliated colleges.<br> 4. Degree Awarding: VTU awards degrees to students after successful completion of their courses. <br> 5. Research and Development: VTU promotes research through its affiliated colleges and research centers.<br> 6. Skill Development and Training: VTU collaborates with industries to organize training programs and workshops.<br> 7. Innovation and Entrepreneurship: The university fosters innovation by supporting startups and entrepreneurship through its incubators and tie-ups. <br>8. Governance and Compliance: VTU ensures compliance with AICTE (All India Council for Technical Education) and UGC (University Grants Commission) guidelines.<br> Key Features of VTU: CBCS (Choice Based Credit System): Allows students flexibility in course selection. <br>Digital Initiatives: Offers e-learning platforms and online resources for students.<br> Regional Offices: Has regional offices in Bengaluru, Mysuru, and Kalaburagi to manage student and college issues efficiently." ]
+  },
+  {
+    "questions": [ "What are the eligibility criteria for admission to VTU ug programs?", "Can I know the eligibility requirements for VTU pg courses?", "What are the eligibility criteria for VTU admissions?" ],
+    "answers": [ "1.<b> Undergraduate Programs</b> (B.E./B.Tech): <br> Educational Qualification: Candidates must have completed their 10+2 (or equivalent) with Physics and Mathematics as compulsory subjects, along with one of the following optional subjects: Chemistry, Biotechnology, Biology, Electronics, or Computer Science. <br> Minimum Marks: A minimum aggregate score of 45% in the qualifying exam (40% for SC/ST and other reserved categories in Karnataka). <br> Entrance Exam: Candidates must qualify for one of the following exams: Karnataka CET (KCET) for Karnataka students, COMEDK UGET for non-Karnataka students, or JEE Main (optional, but accepted by some VTU-affiliated colleges). <br><br> 2.<b> Lateral Entry </b> (Direct Second-Year B.E./B.Tech): <br> Educational Qualification: Diploma holders in engineering/technology or B.Sc. graduates with Mathematics as a subject. <br> Minimum Marks: A minimum aggregate score of 45% in the diploma/B.Sc. program (40% for SC/ST and other reserved categories in Karnataka). <br> Entrance Exam: Must qualify for Karnataka PGCET (Postgraduate Common Entrance Test) for lateral entry.<br><br> 3. <b>Postgraduate Programs</b> (M.Tech, MBA, MCA):<br> M.Tech: Educational Qualification: A bachelor’s degree (B.E./B.Tech) in a relevant field.<br> Minimum Marks: A minimum aggregate score of 50% in the undergraduate program (45% for SC/ST and other reserved categories in Karnataka). <br>Entrance Exam: GATE or Karnataka PGCET. <br>MBA: Educational Qualification: A bachelor’s degree in any discipline.<br> Minimum Marks: A minimum aggregate score of 50% (45% for SC/ST and other reserved categories in Karnataka). <br>Entrance Exam: Karnataka PGCET, CAT, MAT, or KMAT.<br> MCA: Educational Qualification: A bachelor’s degree with Mathematics/Statistics/Computer Science/Computer Applications as a subject in 10+2 or at the undergraduate level. <br>Minimum Marks: A minimum aggregate score of 50% (45% for SC/ST and other reserved categories in Karnataka).<br> Entrance Exam: Karnataka PGCET or KMAT.<br><br>4. <b>Ph.D. Programs</b>: <br>Educational Qualification: A master's degree in a relevant field with a minimum of 55% aggregate marks. <br>Entrance Exam: Candidates must qualify for the VTU Research Aptitude Test (VTU-RAT) or equivalent national-level exams like UGC NET/GATE. <br><br>5. <b>NRI/Foreign Student Eligibility</b>: Must have completed equivalent qualifications as recognized by VTU. Must provide proof of English language proficiency (e.g., TOEFL or IELTS scores). <br>General Notes: Reservations and relaxation of marks are applicable for Karnataka domicile students belonging to SC/ST/OBC categories as per government norms. <br>Admission procedures and requirements may vary slightly for affiliated colleges, so candidates should check specific college websites for additional details." ]
+  },
+  {
+    "questions": [ "information about vtu sports", "Does VTU offer sports programs for students?", "What types of sports facilities are available at VTU?", "Does VTU organize inter-collegiate sports events?" ],
+    "answers": [ "You can find sports programs at <a href='https://vtu.ac.in/sports/' target='_blank'>VTU Sports – Visvesvaraya Technological University</a>." ]
+  },
+  {
+    "questions": [ "vtu scholarships information", "How can I apply for scholarships in VTU?", "What are the eligibility criteria for VTU scholarships?", "Where can I find VTU scholarship details?" ],
+    "answers": [ "Scholarships include government schemes like SC/ST scholarships, minority scholarships, and private organization sponsorships for merit-based students.You can find information on scholarships at <a href='https://vtu.ac.in/scholarships/' target='_blank'>VTU Scholarships – Visvesvaraya Technological University</a>." ]
+  },
+  {
+    "questions": [ "What are the passing criteria for VTU exams?" ],
+    "answers": [ "A student must score a minimum of 35% in the theory exam and 40% aggregate, including internal assessments." ]
+  },
+  {
+    "questions": [ "What is VTU’s policy on attendance?" ],
+    "answers": [ "VTU mandates a minimum of 85% attendance. Shortfall attendance must be compensated through medical or valid excuses." ]
+  },
+  {
+    "questions": [ "What is the grading system at VTU?" ],
+    "answers": [ "VTU follows a CGPA system. Grades range from S (Outstanding) to F (Fail), with corresponding grade points." ]
+  },
+  {
+    "questions": [ "What are the popular courses offered by VTU?" ],
+    "answers": [ "VTU offers B.E., M.Tech, MBA, MCA, and Ph.D. programs in various disciplines, including computer science, mechanical engineering, and civil engineering." ]
+  },
+  {
+    "questions": [ "How can I apply for VTU revaluation?" ],
+    "answers": [ "You can apply through your college within the specified timeline by paying the required fee." ]
+  },
+  {
+    "questions": [ "What placement opportunities are available for VTU students?" ],
+    "answers": [ "Placements depend on the college, with many VTU-affiliated colleges having tie-ups with top MNCs." ]
+  },
+  {
+    "questions": [ "What are the best colleges under VTU?" ],
+    "answers": [ "Some top colleges include BMSCE, RVCE, MSRIT, and PESIT." ]
+  },
+  {
+    "questions": [ "How can I download the VTU exam timetable?", "Has VTU postponed any exams?", "vtu timetable link" ],
+    "answers": [ "You can find the VTU exam timetable at <a href='https://vtu.ac.in/category/time-table/' target='_blank'>VTU Time Table</a>." ]
+  },
+  {
+    "questions": [ "Which are the top colleges under VTU?" ],
+    "answers": [ "R.V. College of Engineering (RVCE), Bengaluru: Established in 1963, RVCE is renowned for its engineering programs and has been consistently ranked among the top engineering colleges in India.", "BMS College of Engineering (BMSCE), Bengaluru: Founded in 1946, BMSCE is one of the oldest engineering colleges in Karnataka, offering a wide range of undergraduate and postgraduate courses.", "M.S. Ramaiah Institute of Technology (MSRIT), Bengaluru: Established in 1962, MSRIT is known for its quality education and infrastructure, offering various engineering disciplines.", "Bangalore Institute of Technology (BIT), Bengaluru: Founded in 1979, BIT offers a variety of engineering courses and is recognized for its academic excellence.", "Sir M. Visvesvaraya Institute of Technology (Sir MVIT), Bengaluru: Established in 1986, Sir MVIT offers a range of engineering programs and is known for its research initiatives." ]
+  },
+  {
+    "questions": [ "What is the VTU placement process?", "Are there any placement training programs in VTU?", "Are soft skills training provided for VTU placements?", "What is the highest package offered during VTU placements?" ],
+    "answers": [ "You can find information on placements [here](https://vtu.ac.in/en/vtu-placement/)." ]
+  },
+  {
+    "questions": [ "What online courses does VTU offer?", "Does VTU provide certification for online courses?", "Are VTU online courses free or paid?", "How can I enroll in a VTU online course?", "What platforms are used for VTU online classes?" ],
+    "answers": [ "You can find online courses on [VTU Online](https://online.vtu.ac.in/)." ]
+  },
+  {
+    "questions": [ "Can you provide notes for [subject/course] under VTU?", "Where can I download VTU study materials for free?", "Are there any good websites for VTU course notes and resources?" ],
+    "answers": [ "You can find study materials [here](https://vtu.ac.in/en/study-material/)." ]
+  },
+  {
+    "questions": [ "How can I apply the VTU exam application form?", "What are the fees for the VTU exam application?", "Can I apply for VTU exams online?" ],
+    "answers": [ "You can get the exam application information [here](https://prexam.vtu.ac.in/)." ]
+  },
+  {
+    "questions": [ "Where can I find the VTU academic calendar?", "What are the important dates for VTU exams and holidays?", "When does the VTU academic year start?", "How to access the VTU academic calendar?", "What is the schedule for VTU holidays and breaks?" ],
+    "answers": [ "You can get it in the WhatsApp group or any of the VTU groups you've joined on Telegram or WhatsApp." ]
+  },
+  {
+    "questions": [ "How can I apply for a transfer within VTU-affiliated colleges?", "What are the eligibility criteria for transferring colleges under VTU?", "Is it possible to change my branch while transferring to another college?", "Are there specific semesters during which branch or college transfers are allowed?", "How can I change my branch in the same college?" ],
+    "answers": [ "Change of college with change of branch: The student who has passed in all subjects/courses of I/II semester is only eligible to apply for change of colleges with change of branch. Hence prior to applying, the student shall verify his/her eligibility for the same after the announcement of first year results." ]
+  },
+  {
+    "questions": [ "Are there hostel facilities for VTU students?", "Are hostels available for both boys and girls?", "What is the room allocation process for new students?", "Can I choose my roommate in the hostel?" ],
+    "answers": [ "VTU provides hostel facilities for students. You can get the information about the hostels from the respective colleges that you've applied for.", "Choosing your roommates and other matters depends upon the hostel wardens, you can contact them and inquire about it personally.", "You can download the PDF through this link [here](https://vtu.ac.in/pdf/naac/7.1/codeofconduct.pdf) and get all the information about the hostels." ]
+  },
+  {
+    "questions": [ "Does VTU have partnerships with international universities?" ],
+    "answers": [ "Yes, VTU offers various programs in partnership with international universities, where students can study a part of their program at VTU or any of the affiliated/autonomous colleges of VTU.", "You can get info about it through the link [here](https://vtu.ac.in/vtu-global-campus/#:~:text=At%20VTU%2C%20we%20offer%20various,university%20campus%20here%20at%20VTU.)." ]
+  },
+  {
+    "questions": [ "How many colleges are affiliated with VTU?", "What are the top VTU-affiliated colleges?", "Can I get a list of all colleges affiliated with VTU?", "Are there autonomous colleges under VTU?" ],
+    "answers": [ "This link [here](https://vtu.ac.in/en/#) takes you directly to the website where you'll get the info.", "Yes, you can get the list of the affiliated colleges, just follow the link [here](https://vtu.ac.in/en/#)." ]
+  },
+  {
+    "questions": [ "How can I check my results?", "When will the results for the VTU supplementary exams be announced?", "What is the official website for VTU results?", "How do I know if my VTU results have been declared?" ],
+    "answers": [ "You can follow this link [here](https://results.vtu.ac.in/) and get the results." ]
+  },
+  {
+    "questions": [ "Where can I find the official VTU model question papers?", "Is there a specific portal or website for accessing VTU model question papers?", "How to download VTU model question papers?" ],
+    "answers": [ "Follow this link [here](https://vtu.ac.in/model-question-paper-b-e-b-tech-b-arch/) to get answers to your questions.", "Yes, you can get them [here](https://vtu.ac.in/model-question-paper-b-e-b-tech-b-arch/).", "Open the given link [here](https://vtu.ac.in/model-question-paper-b-e-b-tech-b-arch/), you will get all semesters model question papers." ]
+  },
+  {
+    "questions": [ "How can I calculate my CGPA from the VTU exam results?", "How do I calculate my CGPA for all semesters combined?", "Where can I calculate my expected CGPA at the end of the course based on my current SGPA and grades?", "Is there any official VTU tool or app for calculating SGPA or CGPA?" ],
+    "answers": [ "Through this link [here](https://www.vtulife.in/vtu-sgpa-cgpa-calculator) you can calculate your SGPA as well as CGPA." ]
+  },
+  {
+    "questions": [ "Does VTU have any channels on Telegram?", "How can I keep myself updated about what's happening in VTU?" ],
+    "answers": [ "You can join the VTU channel through this link [here](t.me/vtu23).", "VTU has a channel on Telegram where it updates everything about what's happening. Join through this link [here](t.me/vtu23)." ]
+  },
+  {
+    "questions": [ "How can I apply for research funding at VTU?", "What is the process for applying for government or private sector research funding through VTU?", "How do I get financial support for presenting my research at international conferences?" ],
+    "answers": [ "This link [here](https://vtu.ac.in/en/administration/circular-vtu-research-grants-scheme-status-reg/) takes you to the page where you'll get the format and the procedure." ]
+  },
+  {
+    "questions": [ "How can I get admission to a B.Tech program at VTU?", "What is the eligibility criteria for admission to VTU?", "What documents are required for VTU admission?" ],
+    "answers": [ "This link [here](https://vtu.ac.in/en/vtu-regulation/eligibility-for-admissions-to-various-academic-programs/) will provide you info about the admission process." ]
+  }
+]
